@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F51F71C414A80C93000C7105 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51F71C314A80C93000C7105 /* UIKit.framework */; };
+		F51F71C614A80C93000C7105 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51F71C514A80C93000C7105 /* Foundation.framework */; };
+		F51F71C814A80C93000C7105 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51F71C714A80C93000C7105 /* CoreGraphics.framework */; };
+		F51F71CE14A80C93000C7105 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F51F71CC14A80C93000C7105 /* InfoPlist.strings */; };
+		F51F71D014A80C93000C7105 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F51F71CF14A80C93000C7105 /* main.m */; };
+		F51F71D414A80C93000C7105 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F51F71D314A80C93000C7105 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F51F71BF14A80C93000C7105 /* EbuyAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EbuyAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51F71C314A80C93000C7105 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F51F71C514A80C93000C7105 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F51F71C714A80C93000C7105 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F51F71CB14A80C93000C7105 /* EbuyAssistant-Info.plist */ = {isa = PBXFileReference; path = "EbuyAssistant-Info.plist"; sourceTree = "<group>"; };
+		F51F71CD14A80C93000C7105 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F51F71CF14A80C93000C7105 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F51F71D114A80C93000C7105 /* EbuyAssistant-Prefix.pch */ = {isa = PBXFileReference; path = "EbuyAssistant-Prefix.pch"; sourceTree = "<group>"; };
+		F51F71D214A80C93000C7105 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F51F71D314A80C93000C7105 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F51F71BC14A80C93000C7105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51F71C414A80C93000C7105 /* UIKit.framework in Frameworks */,
+				F51F71C614A80C93000C7105 /* Foundation.framework in Frameworks */,
+				F51F71C814A80C93000C7105 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F51F71B414A80C93000C7105 = {
+			isa = PBXGroup;
+			children = (
+				F51F71C914A80C93000C7105 /* EbuyAssistant */,
+				F51F71C214A80C93000C7105 /* Frameworks */,
+				F51F71C014A80C93000C7105 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F51F71C014A80C93000C7105 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F51F71BF14A80C93000C7105 /* EbuyAssistant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F51F71C214A80C93000C7105 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F51F71C314A80C93000C7105 /* UIKit.framework */,
+				F51F71C514A80C93000C7105 /* Foundation.framework */,
+				F51F71C714A80C93000C7105 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F51F71C914A80C93000C7105 /* EbuyAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				F51F71D214A80C93000C7105 /* AppDelegate.h */,
+				F51F71D314A80C93000C7105 /* AppDelegate.m */,
+				F51F71CA14A80C93000C7105 /* Supporting Files */,
+			);
+			path = EbuyAssistant;
+			sourceTree = "<group>";
+		};
+		F51F71CA14A80C93000C7105 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F51F71CB14A80C93000C7105 /* EbuyAssistant-Info.plist */,
+				F51F71CC14A80C93000C7105 /* InfoPlist.strings */,
+				F51F71CF14A80C93000C7105 /* main.m */,
+				F51F71D114A80C93000C7105 /* EbuyAssistant-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F51F71BE14A80C93000C7105 /* EbuyAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F51F71D714A80C93000C7105 /* Build configuration list for PBXNativeTarget "EbuyAssistant" */;
+			buildPhases = (
+				F51F71BB14A80C93000C7105 /* Sources */,
+				F51F71BC14A80C93000C7105 /* Frameworks */,
+				F51F71BD14A80C93000C7105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EbuyAssistant;
+			productName = EbuyAssistant;
+			productReference = F51F71BF14A80C93000C7105 /* EbuyAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F51F71B614A80C93000C7105 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Youshang;
+			};
+			buildConfigurationList = F51F71B914A80C93000C7105 /* Build configuration list for PBXProject "EbuyAssistant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F51F71B414A80C93000C7105;
+			productRefGroup = F51F71C014A80C93000C7105 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F51F71BE14A80C93000C7105 /* EbuyAssistant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F51F71BD14A80C93000C7105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51F71CE14A80C93000C7105 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F51F71BB14A80C93000C7105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51F71D014A80C93000C7105 /* main.m in Sources */,
+				F51F71D414A80C93000C7105 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F51F71CC14A80C93000C7105 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F51F71CD14A80C93000C7105 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F51F71D514A80C93000C7105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F51F71D614A80C93000C7105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F51F71D814A80C93000C7105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EbuyAssistant/EbuyAssistant-Prefix.pch";
+				INFOPLIST_FILE = "EbuyAssistant/EbuyAssistant-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F51F71D914A80C93000C7105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EbuyAssistant/EbuyAssistant-Prefix.pch";
+				INFOPLIST_FILE = "EbuyAssistant/EbuyAssistant-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F51F71B914A80C93000C7105 /* Build configuration list for PBXProject "EbuyAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51F71D514A80C93000C7105 /* Debug */,
+				F51F71D614A80C93000C7105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F51F71D714A80C93000C7105 /* Build configuration list for PBXNativeTarget "EbuyAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51F71D814A80C93000C7105 /* Debug */,
+				F51F71D914A80C93000C7105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F51F71B614A80C93000C7105 /* Project object */;
+}
